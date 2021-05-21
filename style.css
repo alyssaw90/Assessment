@@ -1,0 +1,124 @@
+.navbar,
+.navbar-light {
+  background: #10828c;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #f4f4f4 !important;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #f4f4f4 !important;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 0.3em;
+  text-decoration: none;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+.header {
+  height: 800px;
+  background-image: url("img/blake-connally-IKUYGCFmfw4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+}
+.description h1 {
+  color: #10828c;
+}
+.description p {
+  color: #fff;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+.description button {
+  border: 1px solid #10828c;
+  background: #10828c;
+  color: #fff;
+}
+
+.about {
+  padding: 1em;
+  margin-top: 30px;
+}
+.about h1 {
+  color: #10828c;
+  margin-bottom: 50px;
+}
+.about img {
+  /* height: 100%; */
+  /* width: 90%; */
+  border-radius: 50%;
+}
+
+.about .desc {
+  padding: 2em;
+  border-left: 4px solid #10828c;
+}
+.about .desc h3 {
+  color: #10828c;
+}
+.about .desc p {
+  line-height: 2;
+  color: #888;
+}
+
+/*Portfolio*/
+.portfolio {
+  margin: 4em 0;
+  position: relative;
+}
+.portfolio h1 {
+  color: #10828c;
+  margin-bottom: 50px;
+}
+.portfolio img {
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
+}
+
+.blog {
+  margin: 4em 0;
+  position: relative;
+}
+.blog h1 {
+  color: #10828c;
+  margin: 2em;
+}
+.blog .card {
+  box-shadow: 0 0 20px #ccc;
+}
+.blog .card img {
+  width: 100%;
+  height: 20em;
+}
+.blog .card-title {
+  color: #10828c;
+}
+.blog .card-body {
+  padding: 1em;
+}
